@@ -8,17 +8,19 @@
 
   </head>  
   <body>
-    <h1>Hi there!</h1>
+    
+    <h1>Hi thereas asdf !</h1>
+      <?php 
+$url = "https://twitter.com/yincany";
+$page = file_get_contents($url);
+echo $page;
+
+?>
     
     <a href="https://twitter.com/yincany" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-lang="es" data-show-count="false">Follow @metrocdmx</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
  
     <a class="twitter-timeline" data-lang="es" href="https://twitter.com/MetroCDMX?ref_src=twsrc%5Etfw">Tweets by MetroCDMX</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </body>
   
-  <?php 
-$url = "https://yincany.github.io/PruebaTwitter";
-$page = file_get_contents($url);
-echo $page;
 
-?>
 </html>
